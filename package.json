@@ -1,0 +1,22 @@
+{
+    "name": "@gakumas-optimiser/master-datas",
+    "version": "0.0.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Gakumas-Optimiser/master-datas"
+    },
+    "license": "MIT",
+    "author": "",
+    "type": "commonjs",
+    "scripts": {
+        "format": "prettier --write .",
+        "test": "tsc --noEmit",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "prettier": "^3.5.3",
+        "typescript": "^5.8.2"
+    },
+    "devDependencies": {}
+}
