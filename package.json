@@ -4,13 +4,13 @@
     "description": "",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Gakumas-Optimiser/master-datas"
+        "url": "https://github.com/Gakumas-Optimiser/master-datas"
     },
     "files": [
         "dist"
     ],
     "license": "MIT",
-    "author": "",
+    "author": "Hatsuboshi Computer Club",
     "type": "commonjs",
     "scripts": {
         "format": "prettier --write .",
@@ -18,8 +18,9 @@
         "build": "tsc"
     },
     "dependencies": {
-        "prettier": "^3.5.3",
         "typescript": "^5.8.2"
     },
-    "devDependencies": {}
+    "devDependencies": {
+        "prettier": "^3.5.3"
+    }
 }
