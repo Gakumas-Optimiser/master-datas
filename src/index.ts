@@ -1,3 +1,3 @@
 import { Skillcards } from "./Skillcards"
 
-export default { Skillcards }
+export { Skillcards }

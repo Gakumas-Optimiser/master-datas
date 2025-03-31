@@ -1,6 +1,6 @@
 {
     "name": "@gakumas-optimiser/master-datas",
-    "version": "0.1.2",
+    "version": "0.2.0",
     "description": "",
     "repository": {
         "type": "git",
@@ -9,6 +9,8 @@
     "files": [
         "dist"
     ],
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "license": "MIT",
     "author": "Hatsuboshi Computer Club",
     "type": "commonjs",
@@ -17,10 +19,9 @@
         "test": "tsc --noEmit",
         "build": "tsc"
     },
-    "dependencies": {
-        "typescript": "^5.8.2"
-    },
+    "dependencies": {},
     "devDependencies": {
+        "typescript": "^5.8.2",
         "prettier": "^3.5.3"
     }
 }
